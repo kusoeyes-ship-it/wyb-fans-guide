@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>王一博粉丝向AI短视频 · 小红书运营手册</title>
+<style>
+:root{--pk:#FF1B6D;--pk2:#FFF0F5;--pp:#7B2FBE;--or:#FF6B35;--dk:#1A1A2E;--gy:#888;--br:14px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif;background:#FAFAFA;color:#333;line-height:1.8;max-width:680px;margin:0 auto;padding:16px}
+.hd{background:linear-gradient(135deg,var(--pk),var(--pp));color:#fff;padding:36px 24px;border-radius:var(--br);text-align:center;margin-bottom:20px}
+.hd h1{font-size:22px;font-weight:800;margin-bottom:6px}
+.hd p{font-size:14px;opacity:.9}
+.s{background:#fff;border-radius:var(--br);padding:22px 20px;margin-bottom:16px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.s h2{font-size:18px;font-weight:800;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.s h3{font-size:15px;font-weight:700;margin:16px 0 10px;color:var(--dk)}
+.step{display:flex;gap:12px;margin-bottom:14px;align-items:flex-start}
+.step .n{background:var(--pk);color:#fff;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;flex-shrink:0;margin-top:2px}
+.step .d{flex:1;font-size:14.5px}
+.step .d strong{color:var(--pk)}
+.tip{background:var(--pk2);border-radius:10px;padding:14px 16px;margin:12px 0;font-size:14px}
+.tip b{color:var(--pk)}
+.warn{background:#FFF8E1;border-left:3px solid #FFAB00;border-radius:0 10px 10px 0;padding:14px 16px;margin:12px 0;font-size:14px}
+.box{background:#F5F5F7;border-radius:10px;padding:16px;margin:10px 0;font-size:14px}
+.box h4{font-size:14px;font-weight:700;margin-bottom:8px}
+.prompt{background:#1A1A2E;color:#E0E0E0;border-radius:10px;padding:16px;margin:10px 0;font-size:13.5px;line-height:1.8;white-space:pre-wrap;position:relative}
+.prompt .la{position:absolute;top:-9px;left:14px;background:var(--pk);color:#fff;padding:2px 10px;border-radius:8px;font-size:11px;font-weight:600}
+.prompt b{color:#FFE066}
+.tag{display:inline-block;padding:3px 10px;border-radius:16px;font-size:12px;font-weight:600;margin:2px}
+.tag-pk{background:var(--pk2);color:var(--pk)}
+.tag-pp{background:#F3E5F5;color:var(--pp)}
+.tag-or{background:#FFF3E0;color:var(--or)}
+details{margin:10px 0;font-size:14px}
+details summary{cursor:pointer;color:var(--pp);font-weight:600;padding:8px 0;user-select:none;font-size:14px}
+details summary:hover{color:var(--pk)}
+details .inner{background:#F9F5FF;border-radius:10px;padding:14px 16px;margin-top:6px;color:#555;font-size:13.5px;line-height:1.8}
+details .inner strong{color:var(--pp)}
+.checklist{list-style:none;padding:0}
+.checklist li{padding:6px 0;font-size:14.5px;border-bottom:1px solid #F0F0F0}
+.checklist li:last-child{border:none}
+.checklist li::before{content:'☐ ';color:var(--pk);font-weight:700}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:500px){.g2{grid-template-columns:1fr}}
+.ft{text-align:center;padding:20px;color:var(--gy);font-size:12px}
+</style>
+</head>
+<body>
+
+<div class="hd">
+<h1>王一博粉丝向AI短视频<br>小红书运营手册 📖</h1>
+<p>零基础照着做 · Seedance 2.0 · 15秒视频</p>
+</div>
+
+<!-- ========== 一句话说明 ========== -->
+<div class="s">
+<h2>💡 这个号是干嘛的？</h2>
+<p style="font-size:15px">用AI生成<b>15秒短视频</b>，拍的不是王一博本人，而是<b>粉丝追星时的各种场景</b>——深夜刷手机、演唱会散场、上班偷看物料……让每个粉丝看到都觉得<b>"这不就是我吗！"</b>然后点赞转发。</p>
+<details>
+<summary>💬 为什么这样做能火？点击了解</summary>
+<div class="inner">
+<strong>群体认同感</strong>是小红书最强的传播力。当粉丝看到一个视频精准还原了自己的追星日常，她会：<br>
+① 点赞（"太懂我了"）<br>
+② 评论（"被偷窥了吧"）<br>
+③ @闺蜜（"这是不是你"）<br>
+④ 收藏（"以后给别人看"）<br><br>
+而且<strong>完全不涉及肖像权问题</strong>，画面里只有AI生成的虚构人物，安全无风险。
+</div>
+</details>
+</div>
+
+<!-- ========== 账号设置 ========== -->
+<div class="s">
+<h2>📱 第一步：账号设置</h2>
+<p style="color:var(--gy);font-size:13px;margin-bottom:12px">5分钟搞定，照抄就行</p>
+
+<div class="box">
+<h4>📝 直接复制用</h4>
+<p><b>昵称：</b>追博日记AI剧场（或自己起，带"追星/粉丝+AI"关键词）</p>
+<p><b>头像：</b>用AI生成一张追星女孩侧影/背影图</p>
+<p><b>简介：</b></p>
+<p style="background:#fff;padding:10px;border-radius:8px;margin-top:6px;font-size:13.5px">
+🎬 用AI拍出每个追星女孩的故事<br>
+💕 你的追星日常，我来帮你演出来<br>
+✨ 粉丝向创作 · AI生成 · 纯属共鸣<br>
+📮 想看什么场景？评论区告诉我
+</p>
+</div>
+
+<details>
+<summary>💬 为什么昵称和简介要这样写？</summary>
+<div class="inner">
+昵称带<strong>"AI"</strong>是为了吸引对AI视频好奇的人，带<strong>"追星"</strong>相关词是为了让粉丝搜到你。简介里的<strong>"粉丝向创作"</strong>声明很重要，既标明立场，也规避风险。最后一行引导评论，能提升互动率。
+</div>
+</details>
+</div>
+
+<!-- ========== 发什么内容 ========== -->
+<div class="s">
+<h2>🎬 第二步：发什么内容</h2>
+<p style="color:var(--gy);font-size:13px;margin-bottom:12px">5类选题，每天从里面选一个拍就行</p>
+
+<div class="box" style="border-left:3px solid var(--pk)">
+<h4>🌙 类型一：追星日常（最好拍，发最多）</h4>
+<p>深夜刷物料、被窝看手机偷笑、手机相册全是他、看到新图控制不住表情</p>
+<p style="margin-top:6px"><span class="tag tag-pk">最容易日更</span> <span class="tag tag-pk">共鸣最强</span></p>
+</div>
+
+<div class="box" style="border-left:3px solid var(--or)">
+<h4>🎤 类型二：演唱会/活动</h4>
+<p>排队等入场的紧张、他出场的失控、散场后路灯下回味、回家路上单曲循环</p>
+<p style="margin-top:6px"><span class="tag tag-or">情绪最炸</span> <span class="tag tag-or">爆款概率高</span></p>
+</div>
+
+<div class="box" style="border-left:3px solid var(--pp)">
+<h4>💪 类型三：因为他变更好的自己</h4>
+<p>备考时看他的照片撑下去、加班后看他笑容满血复活、学他坚持的样子</p>
+<p style="margin-top:6px"><span class="tag tag-pp">最容易破圈</span> <span class="tag tag-pp">路人也爱看</span></p>
+</div>
+
+<div class="box" style="border-left:3px solid #42A5F5">
+<h4>😂 类型四：追星名场面（搞笑）</h4>
+<p>向爸妈解释追星、被同事发现摸鱼、安利失败、花了多少钱不敢算</p>
+<p style="margin-top:6px"><span class="tag" style="background:#E3F2FD;color:#1976D2">完播率最高</span> <span class="tag" style="background:#E3F2FD;color:#1976D2">互相@好友</span></p>
+</div>
+
+<div class="box" style="border-left:3px solid #66BB6A">
+<h4>💌 类型五：粉丝心声（走心）</h4>
+<p>"喜欢他的第5年""从未后悔""谢谢你让我相信美好"</p>
+<p style="margin-top:6px"><span class="tag" style="background:#E8F5E9;color:#66BB6A">收藏率之王</span> <span class="tag" style="background:#E8F5E9;color:#66BB6A">适合做置顶</span></p>
+</div>
+
+<details>
+<summary>💬 这5类的比例怎么分配？</summary>
+<div class="inner">
+建议 <strong>6:3:1</strong>：<br>
+• <strong>60%</strong> 上面5类日常选题轮着发<br>
+• <strong>30%</strong> 追热点（下面会教）<br>
+• <strong>10%</strong> 和粉丝互动（投票、征集故事）<br><br>
+刚开始不用纠结比例，<strong>哪个数据好就多发哪个</strong>。
+</div>
+</details>
+</div>
+
+<!-- ========== 怎么做视频 ========== -->
+<div class="s">
+<h2>🎥 第三步：怎么做一条视频</h2>
+<p style="color:var(--gy);font-size:13px;margin-bottom:12px">全程只需要 Seedance 2.0 + 剪映加字幕，40分钟一条</p>
+
+<div class="step"><div class="n">1</div><div class="d"><strong>选一个场景</strong><br>从上面5类里选一个具体画面，比如"深夜被窝刷手机看到新物料"</div></div>
+
+<div class="step"><div class="n">2</div><div class="d"><strong>写Prompt（提示词）</strong><br>告诉AI你要什么画面。按下面的模板填空就行👇</div></div>
+
+<div class="prompt"><div class="la">✍️ Prompt万能模板</div>
+<b>[场景]</b> 在哪里？什么时间？什么环境？
+<b>[人物]</b> 中国年轻女生，穿什么，什么状态
+<b>[动作]</b> 她做了什么？表情怎么变化？
+<b>[镜头]</b> 特写/中景/远景，固定/缓慢推进
+<b>[风格]</b> 电影质感，竖屏9:16</div>
+
+<div class="step"><div class="n">3</div><div class="d"><strong>投入Seedance 2.0生成</strong><br>把写好的Prompt粘贴进去，生成15秒视频。不满意就微调Prompt重新生成</div></div>
+
+<div class="step"><div class="n">4</div><div class="d"><strong>加字幕发布</strong><br>用剪映给视频加4-6句字幕（可以加简单淡入动效），然后发小红书</div></div>
+
+<h3>✅ 3个现成Prompt，直接复制用</h3>
+
+<div class="prompt"><div class="la">示例① 被窝刷手机</div>
+<b>[场景]</b> 夜晚，中国年轻女生躺在床上，被子拉到下巴，脸被手机柔和的蓝色光芒照亮。
+<b>[动作]</b> 滑动手机浏览，突然停下，眼睛睁大，忍不住露出害羞的笑容，咬下唇，兴奋地把被子蒙过头。
+<b>[镜头]</b> 特写，固定机位，她笑的时候缓慢推进。
+<b>[风格]</b> 电影质感，暖色调，胶片颗粒感，温馨氛围，竖屏9:16。</div>
+<p style="font-size:13px;color:var(--gy)">配字幕：深夜刷到他的新物料 / 控制表情失败 / 被窝里的追星人 / 你是不是也这样</p>
+
+<div class="prompt"><div class="la">示例② 演唱会散场</div>
+<b>[场景]</b> 演唱会结束后的城市夜晚街道，中国年轻女生独自走在路上，手里拿着微微发光的荧光棒，穿着粉丝应援卫衣。
+<b>[动作]</b> 缓慢走着，抬头看天空，深呼吸，嘴角浮现温柔的微笑。戴着耳机，正在听歌。
+<b>[镜头]</b> 中景跟拍，从背后缓慢弧线转到侧脸。街灯虚化光斑。
+<b>[风格]</b> 电影质感，冷色调搭配暖黄路灯点缀，胶片颗粒感，竖屏9:16。</div>
+<p style="font-size:13px;color:var(--gy)">配字幕：散场了 / 但耳机里还在单曲循环 / 路灯下的满足感 / 下次见</p>
+
+<div class="prompt"><div class="la">示例③ 上班摸鱼</div>
+<b>[场景]</b> 中国年轻女生坐在办公室工位前，电脑屏幕显示着工作文档，偷偷把手机藏在桌面下。
+<b>[动作]</b> 紧张地左右张望，低头看手机，突然绽放灿烂笑容。同事经过，她瞬间坐直假装打字。
+<b>[镜头]</b> 中近景，略微倾斜角度，办公室自然光线。
+<b>[风格]</b> 写实风格，自然光，微妙幽默感，生活切片，竖屏9:16。</div>
+<p style="font-size:13px;color:var(--gy)">配字幕：工位上收到他的新消息 / 表情管理失败 / 追星人的职场生存指南</p>
+
+<details>
+<summary>💬 Prompt写得好和差区别有多大？</summary>
+<div class="inner">
+因为我们<strong>不做复杂剪辑</strong>，Seedance直出就是成片，所以<strong>Prompt质量=成片质量</strong>。写的时候注意：<br>
+• <strong>要具体</strong>——"笑"不如"忍不住露出害羞的笑容，咬下唇"<br>
+• <strong>写动作变化</strong>——15秒内要有一个情绪转折（平静→激动/搞笑→感动）<br>
+• <strong>别忘镜头和风格</strong>——"电影质感"和"竖屏9:16"必写<br>
+• <strong>绝对不提任何真实明星姓名</strong>——只描述粉丝角色
+</div>
+</details>
+</div>
+
+<!-- ========== 追热点 ========== -->
+<div class="s">
+<h2>🔥 第四步：看到热点怎么变成视频</h2>
+<p style="color:var(--gy);font-size:13px;margin-bottom:12px">这是最核心的技能——任何热点都能30分钟变成一条视频脚本</p>
+
+<div class="tip">
+<b>🧠 记住这个口诀就行：</b><br>
+<span style="font-size:16px;font-weight:800;color:var(--pk)">热点 → 情绪 → 粉丝什么时候也有这种情绪 → 拍那个场景</span>
+</div>
+
+<h3>👇 拆解成3步：</h3>
+
+<div class="step"><div class="n">1</div><div class="d"><strong>看到热点，先想：这件事让人什么感觉？</strong><br>感动？搞笑？骄傲？心疼？思念？——提取一个<b>核心情绪</b></div></div>
+
+<div class="step"><div class="n">2</div><div class="d"><strong>再想：粉丝追星时，什么场景也会有这种情绪？</strong><br>把热点的情绪"翻译"成一个<b>粉丝追星的画面</b></div></div>
+
+<div class="step"><div class="n">3</div><div class="d"><strong>写Prompt + 字幕，生成视频</strong><br>用前面的模板填好，投入Seedance生成</div></div>
+
+<h3>📋 4个例子，看完就会</h3>
+
+<div class="box" style="border-left:3px solid #66BB6A">
+<h4>例1：王一博新剧官宣 → 激动</h4>
+<p>💭 粉丝什么时候也激动？→ <b>在地铁上刷到官宣消息那一刻</b></p>
+<p>🎬 画面：女孩地铁看手机→坐直→捂嘴→旁边人侧目</p>
+<p>📝 字幕：通勤路上刷到他的新剧官宣 / 表情管理全线崩溃 / 旁边大叔看我像看疯子 / 但谁在乎呢</p>
+<p style="margin-top:6px"><span class="tag tag-pk">#王一博新剧</span> <span class="tag tag-pk">#追星日常</span> <span class="tag tag-pk">#MTJJ</span></p>
+</div>
+
+<div class="box" style="border-left:3px solid #42A5F5">
+<h4>例2：高考季 → 坚持</h4>
+<p>💭 粉丝什么时候也在坚持？→ <b>备考时用他的照片给自己打气</b></p>
+<p>🎬 画面：女孩深夜书桌→疲惫揉眼→看到桌角小卡→微笑→重新翻开书</p>
+<p>📝 字幕：高三凌晨两点 / 想放弃的时候 / 看看桌角的他 / "他那么努力，我也不能输"</p>
+<p style="margin-top:6px"><span class="tag tag-pp">#高考加油</span> <span class="tag tag-pp">#追星让我更努力</span> <span class="tag tag-pp">#正能量</span></p>
+</div>
+
+<div class="box" style="border-left:3px solid var(--pk)">
+<h4>例3：七夕节 → 甜蜜自嘲</h4>
+<p>💭 粉丝七夕什么心情？→ <b>"不需要男朋友，有他就够了"</b></p>
+<p>🎬 画面：女孩路过情侣→摇头→回家打开手机相册→甜甜笑→抱手机倒床上</p>
+<p>📝 字幕：七夕？/ 不需要男朋友 / 打开相册全是他 / 有他就是满分❤️</p>
+<p style="margin-top:6px"><span class="tag tag-or">#七夕</span> <span class="tag tag-or">#单身追星人的情人节</span></p>
+</div>
+
+<div class="box" style="border-left:3px solid var(--pp)">
+<h4>例4：下雨天 → 思念</h4>
+<p>💭 粉丝下雨天会干嘛？→ <b>窗前听他的歌发呆</b></p>
+<p>🎬 画面：女孩窗前看雨→手指在玻璃画心→戴耳机→闭眼微笑</p>
+<p>📝 字幕：下雨了 / 戴上耳机放他的歌 / 在窗上画了个心 / 追星人的思念都是安静的</p>
+<p style="margin-top:6px"><span class="tag tag-pk">#下雨天的追星人</span> <span class="tag tag-pk">#思念</span></p>
+</div>
+
+<details>
+<summary>💬 追热点的速度要多快？</summary>
+<div class="inner">
+• <strong>王一博相关热点</strong>（官宣/物料/活动）→ 当天4小时内发，抢第一波<br>
+• <strong>可借势的娱乐/社会热点</strong> → 当天或次日发<br>
+• <strong>节日/季节</strong>（七夕/高考/开学/过年）→ 提前3-7天准备好<br>
+• <strong>天气/日常</strong>（下雨/降温/周一）→ 当天随手发<br><br>
+<strong>热点去哪看？</strong>王一博超话、小红书热搜、微博热搜、抖音热榜。每天花5分钟扫一眼就行。
+</div>
+</details>
+</div>
+
+<!-- ========== 标题怎么写 ========== -->
+<div class="s">
+<h2>✏️ 第五步：标题和标签怎么写</h2>
+<p style="color:var(--gy);font-size:13px;margin-bottom:12px">4个模板选一个套，再加标签就行</p>
+
+<div class="box">
+<h4>模板A：群体认同（最好用）</h4>
+<p>"MTJJ深夜的样子，你中了几条？"</p>
+<p>"每个追星女孩都经历过的瞬间"</p>
+<p>"追星人的手机相册，不敢给别人看"</p>
+</div>
+<div class="box">
+<h4>模板B：场景代入</h4>
+<p>"当上班刷到他的新物料时……"</p>
+<p>"演唱会散场后走在路上的样子"</p>
+</div>
+<div class="box">
+<h4>模板C：情绪金句</h4>
+<p>"喜欢他的第5年，从未后悔"</p>
+<p>"不是追星，是追上了更好的自己"</p>
+</div>
+<div class="box">
+<h4>模板D：反差搞笑</h4>
+<p>"工作：认真严谨 vs 刷到他的新图"</p>
+<p>"手机内存不够了，删了所有App，偶像照片一张没动"</p>
+</div>
+
+<div class="tip">
+<b>标签固定组合（每篇都带）：</b><br>
+#王一博 #MTJJ #追星日常 #AI短剧 + 1-2个内容相关标签
+</div>
+
+<details>
+<summary>💬 为什么标题这么重要？</summary>
+<div class="inner">
+小红书用户刷信息流时，<strong>决定是否点开只需要1秒</strong>。标题要在1秒内让粉丝觉得<strong>"这说的是我"</strong>或<strong>"这我必须看"</strong>。所以群体认同型标题效果最好——直接喊话"你是不是也这样"。
+</div>
+</details>
+</div>
+
+<!-- ========== 发布节奏 ========== -->
+<div class="s">
+<h2>📅 第六步：什么时候发、发多少</h2>
+<p style="color:var(--gy);font-size:13px;margin-bottom:12px">照这个节奏来就行，不用想太多</p>
+
+<div class="g2">
+<div class="box" style="text-align:center">
+<h4>每周发几条</h4>
+<p style="font-size:28px;font-weight:800;color:var(--pk)">4-5条</p>
+<p style="font-size:13px;color:var(--gy)">不用日更，质量 > 数量</p>
+</div>
+<div class="box" style="text-align:center">
+<h4>最佳发布时间</h4>
+<p style="font-size:28px;font-weight:800;color:var(--pp)">18:30-20:00</p>
+<p style="font-size:13px;color:var(--gy)">晚饭后粉丝刷手机高峰</p>
+</div>
+</div>
+
+<div class="warn">
+<b>⚡ 例外：</b>遇到王一博重大热点，不管什么时间，做完就发，抢时效。
+</div>
+
+<h3>前30天怎么安排</h3>
+<div class="box">
+<p><b>第1周（试水）：</b>发1条图文自我介绍 + 4条视频，测试5种不同场景，看哪个数据最好</p>
+<p><b>第2周（加速）：</b>围绕第1周数据最好的类型多发，开始追热点</p>
+<p><b>第3周（冲量）：</b>启动一个系列（如"追星人的24小时"），发互动征集帖</p>
+<p><b>第4周（稳定）：</b>固定每周栏目，做一次数据复盘，调整方向</p>
+</div>
+
+<details>
+<summary>💬 为什么不建议日更？</summary>
+<div class="inner">
+小红书算法不像抖音那样重视日更频率。<strong>1条高质量视频的效果 > 3条凑数的</strong>。而且每周4-5条的节奏你不会太累，能坚持得更久。刚开始最怕的不是发得少，是做两周觉得累就放弃了。
+</div>
+</details>
+</div>
+
+<!-- ========== 涨粉目标 ========== -->
+<div class="s">
+<h2>📈 涨粉目标（别急，循序渐进）</h2>
+
+<div class="g2" style="grid-template-columns:1fr 1fr 1fr">
+<div class="box" style="text-align:center">
+<p style="font-size:13px;font-weight:700">第1个月</p>
+<p style="font-size:26px;font-weight:800;color:var(--pk)">500</p>
+<p style="font-size:12px;color:var(--gy)">找到感觉</p>
+</div>
+<div class="box" style="text-align:center">
+<p style="font-size:13px;font-weight:700">第2个月</p>
+<p style="font-size:26px;font-weight:800;color:var(--pp)">3,000</p>
+<p style="font-size:12px;color:var(--gy)">稳定出爆款</p>
+</div>
+<div class="box" style="text-align:center">
+<p style="font-size:13px;font-weight:700">第3个月</p>
+<p style="font-size:26px;font-weight:800;color:var(--or)">10,000+</p>
+<p style="font-size:12px;color:var(--gy)">可以变现了</p>
+</div>
+</div>
+
+<details>
+<summary>💬 怎么判断数据好不好？</summary>
+<div class="inner">
+主要看这几个数：<br>
+• <strong>互动率≥5%</strong>（点赞+评论+收藏 ÷ 浏览数）——说明内容有共鸣<br>
+• <strong>收藏率≥6%</strong>——说明内容有价值，用户想留着看<br>
+• <strong>评论里有"这不就是我"类内容</strong>——方向对了<br>
+• <strong>每月出1-2条过万播放</strong>——爆款在路上了<br><br>
+数据不好不要慌，看看哪条最好、哪条最差，找区别，调整就行。
+</div>
+</details>
+</div>
+
+<!-- ========== 红线 ========== -->
+<div class="s">
+<h2>🛡️ 红线（必须遵守）</h2>
+<ul class="checklist">
+<li><b>不出现王一博面容</b>——偶像只存在于字幕文案中</li>
+<li><b>Prompt里不写真实明星名字</b>——只描述"年轻女生"等泛化角色</li>
+<li><b>每篇加 #AI创作 标签</b>——标明是AI生成内容</li>
+<li><b>不冒充官方</b>——简介/内容里标"粉丝向创作"</li>
+<li><b>不造谣不传未证实信息</b>——只做情感共鸣内容</li>
+<li><b>不引战不拉踩</b>——不碰其他艺人粉圈</li>
+<li><b>BGM用无版权音乐</b>——用平台内置或免版权曲库</li>
+</ul>
+</div>
+
+<!-- ========== 开工清单 ========== -->
+<div class="s">
+<h2>✅ 开工清单（照着勾完就能开始）</h2>
+<ul class="checklist">
+<li>注册/准备好小红书账号</li>
+<li>按上面模板设置好昵称、头像、简介</li>
+<li>注册Seedance 2.0，跑通一次生成流程</li>
+<li>用3个示例Prompt各生成一条测试视频</li>
+<li>下载剪映，练习加字幕（5分钟就会）</li>
+<li>关注王一博超话 + 小红书搜几个追星账号</li>
+<li>准备好5条视频库存，选一天正式开始发布</li>
+</ul>
+</div>
+
+<div class="ft">
+🌸 做完清单就开始发第一条！<br>
+遇到任何热点 → 套第四步的公式 → 30分钟出一条视频<br>
+<span style="color:var(--pk);font-weight:700">加油！🚀</span>
+</div>
+
+</div>
+</body>
+</html>
