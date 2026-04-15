@@ -42,6 +42,12 @@ details .inner strong{color:var(--pp)}
 .g2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 @media(max-width:500px){.g2{grid-template-columns:1fr}}
 .ft{text-align:center;padding:20px;color:var(--gy);font-size:12px}
+.toc{background:#fff;border-radius:var(--br);padding:18px 20px;margin-bottom:16px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.toc h2{font-size:16px;font-weight:800;margin-bottom:10px}
+.toc ol{padding-left:20px;margin:0}
+.toc li{padding:5px 0;font-size:14px}
+.toc a{color:var(--pk);text-decoration:none;font-weight:600}
+.toc a:hover{text-decoration:underline;color:var(--pp)}
 </style>
 </head>
 <body>
@@ -51,8 +57,24 @@ details .inner strong{color:var(--pp)}
 <p>零基础照着做 · Seedance 2.0 · 15秒视频</p>
 </div>
 
+<div class="toc">
+<h2>📑 目录</h2>
+<ol>
+<li><a href="#intro">这个号是干嘛的？</a></li>
+<li><a href="#account">账号设置</a></li>
+<li><a href="#content">发什么内容</a></li>
+<li><a href="#howto">怎么做一条视频</a></li>
+<li><a href="#hotspot">看到热点怎么变成视频</a></li>
+<li><a href="#title">标题和标签怎么写</a></li>
+<li><a href="#schedule">什么时候发、发多少</a></li>
+<li><a href="#growth">涨粉目标</a></li>
+<li><a href="#rules">红线（必须遵守）</a></li>
+<li><a href="#checklist">开工清单</a></li>
+</ol>
+</div>
+
 <!-- ========== 一句话说明 ========== -->
-<div class="s">
+<div class="s" id="intro">
 <h2>💡 这个号是干嘛的？</h2>
 <p style="font-size:15px">用AI生成<b>15秒短视频</b>，拍的不是王一博本人，而是<b>粉丝追星时的各种场景</b>——深夜刷手机、演唱会散场、上班偷看物料……让每个粉丝看到都觉得<b>"这不就是我吗！"</b>然后点赞转发。</p>
 <details>
@@ -69,7 +91,7 @@ details .inner strong{color:var(--pp)}
 </div>
 
 <!-- ========== 账号设置 ========== -->
-<div class="s">
+<div class="s" id="account">
 <h2>📱 第一步：账号设置</h2>
 <p style="color:var(--gy);font-size:13px;margin-bottom:12px">5分钟搞定，照抄就行</p>
 
@@ -96,7 +118,7 @@ details .inner strong{color:var(--pp)}
 </div>
 
 <!-- ========== 发什么内容 ========== -->
-<div class="s">
+<div class="s" id="content">
 <h2>🎬 第二步：发什么内容</h2>
 <p style="color:var(--gy);font-size:13px;margin-bottom:12px">5类选题，每天从里面选一个拍就行</p>
 
@@ -143,7 +165,7 @@ details .inner strong{color:var(--pp)}
 </div>
 
 <!-- ========== 怎么做视频 ========== -->
-<div class="s">
+<div class="s" id="howto">
 <h2>🎥 第三步：怎么做一条视频</h2>
 <p style="color:var(--gy);font-size:13px;margin-bottom:12px">全程只需要 Seedance 2.0 + 剪映加字幕，40分钟一条</p>
 
@@ -198,7 +220,7 @@ details .inner strong{color:var(--pp)}
 </div>
 
 <!-- ========== 追热点 ========== -->
-<div class="s">
+<div class="s" id="hotspot">
 <h2>🔥 第四步：看到热点怎么变成视频</h2>
 <p style="color:var(--gy);font-size:13px;margin-bottom:12px">这是最核心的技能——任何热点都能30分钟变成一条视频脚本</p>
 
@@ -262,7 +284,7 @@ details .inner strong{color:var(--pp)}
 </div>
 
 <!-- ========== 标题怎么写 ========== -->
-<div class="s">
+<div class="s" id="title">
 <h2>✏️ 第五步：标题和标签怎么写</h2>
 <p style="color:var(--gy);font-size:13px;margin-bottom:12px">4个模板选一个套，再加标签就行</p>
 
@@ -302,7 +324,7 @@ details .inner strong{color:var(--pp)}
 </div>
 
 <!-- ========== 发布节奏 ========== -->
-<div class="s">
+<div class="s" id="schedule">
 <h2>📅 第六步：什么时候发、发多少</h2>
 <p style="color:var(--gy);font-size:13px;margin-bottom:12px">照这个节奏来就行，不用想太多</p>
 
@@ -340,7 +362,7 @@ details .inner strong{color:var(--pp)}
 </div>
 
 <!-- ========== 涨粉目标 ========== -->
-<div class="s">
+<div class="s" id="growth">
 <h2>📈 涨粉目标（别急，循序渐进）</h2>
 
 <div class="g2" style="grid-template-columns:1fr 1fr 1fr">
@@ -375,7 +397,7 @@ details .inner strong{color:var(--pp)}
 </div>
 
 <!-- ========== 红线 ========== -->
-<div class="s">
+<div class="s" id="rules">
 <h2>🛡️ 红线（必须遵守）</h2>
 <ul class="checklist">
 <li><b>不出现王一博面容</b>——偶像只存在于字幕文案中</li>
@@ -389,7 +411,7 @@ details .inner strong{color:var(--pp)}
 </div>
 
 <!-- ========== 开工清单 ========== -->
-<div class="s">
+<div class="s" id="checklist">
 <h2>✅ 开工清单（照着勾完就能开始）</h2>
 <ul class="checklist">
 <li>注册/准备好小红书账号</li>
